@@ -1,0 +1,68 @@
+.lista-automotores{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px;
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+#costos{
+    margin-right: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 1vh;
+}
+#total{
+    margin: 0;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background: white;
+    color:black;
+    border-top: solid black;
+    border-bottom: solid black;
+}
+#pagar{
+    background: linear-gradient(0.2turn, #a8a5037e, #16b900);
+    color: white;
+    height: 40px;
+    padding-left: 10px;
+    padding-right: 15px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+#tit-total{
+    margin: 0;
+    background: rgb(0,0,0);
+    color: white;
+    padding: 6px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+#img-cart{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+}
+#img-cart:hover{
+    -webkit-transform: scale(1.2); 
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.mas-menos{
+    border-radius: 60px;
+    border-style: none;
+}
+#borrar{
+    background: linear-gradient(0.2turn, #a837037e, #b90000);
+    color: white;
+    padding: 5px;
+}

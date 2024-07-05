@@ -1,0 +1,43 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+header{
+  background: linear-gradient(0.5deg, #12115a, #000000ed);
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+body {
+  color: white;
+  background:linear-gradient(3deg, #12115a 20%, #022b83ed 50%, #12115a 60%);
+  margin: 0;
+}
+.barra-principal {
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  display: flex;
+}
+#logo {
+  align-items: center;
+  width: 120px;
+  height: 60px;
+}
+#titulo {
+  display: flex;
+  align-items: center;
+  margin: 0px;
+  font-size: 30px;
+  font-family: monospace;
+  background: linear-gradient(0.5deg, #12115a, #000000ed);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+footer {
+  padding: 20px;
+  background: linear-gradient(0.5deg, #000000ed, #12115a);
+  margin-top: 1vh;
+  position: relative;
+  top: 50vh;
+}

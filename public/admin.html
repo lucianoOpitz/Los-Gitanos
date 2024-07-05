@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>BuyCar Admin</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="admin.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <header>
+      <div class="barra-principal">
+        <img id="logo" src="./img/logo.png"/>
+      </div>
+      <h1 id="titulo">-Los Gitanos-</h1>
+      <h2 id="tit-admin">Admin</h2>
+    </header>
+
+    <!--  Formulario  ---------------------      -->
+
+    <article id="gestion-autos">
+      <section id="add-automotor">
+        <h2 id="upload-auto">Cargar AutoMotor</h2>
+        <label for="entrada-nombre">Nombre</label>
+        <input type="text" id="entrada-nombre" class="update-car">
+        <label for="entrada-modelo">Modelo</label>
+        <input type="text" id="entrada-modelo" class="update-car">
+        <label for="entrada-marca">Año</label>
+        <input type="text" id="entrada-marca" class="update-car">
+        <label for="entrada-tipo">Precio</label>
+        <input type="text" id="entrada-tipo" class="update-car">
+        <button id="cargar" onClick="cargar()">Cargar</button>
+      </section>
+      <section id="lista-autos">
+        <fieldset id="lista">
+          <legend>Lista de Automotores</legend>
+          <div id="listar-automotor"></div>
+        </fieldset>
+        <fieldset id="mostrar-automotor">
+          <legend>Automotor Seleccionado</legend>
+          <div class="form">
+            <label for="nombre-show">Nombre</label>
+            <output id="nombre-show" type="text" class="show-automotor"></output>
+          </div>
+          <div id="caja-update1" class="cajas-updates">
+            <label for="update-1" class="label-update">Actualizar</label>
+            <input type="text" id="update-1" class="update-cars">
+          </div>
+          <div class="form">
+            <label for="modelo-show">Modelo</label>
+            <output id="modelo-show" type="text" class="show-automotor"></output>
+          </div>
+          <div id="caja-update2" class="cajas-updates">
+            <label for="update-2" class="label-update">Actualizar</label>
+            <input type="text" id="update-2" class="update-cars">
+          </div>
+          <div class="form">
+            <label for="marca-show">Año</label>
+            <output id="marca-show" type="text" class="show-automotor"></output>
+          </div>
+          <div id="caja-update3" class="cajas-updates">
+            <label for="update-3" class="label-update">Actualizar</label>
+            <input type="text" id="update-3" class="update-cars">
+          </div>
+          <div class="form">
+            <label for="tipo-show">Precio</label>
+            <output id="tipo-show" type="text" class="show-automotor"></output>
+          </div>
+          <div id="caja-update4" class="cajas-updates">
+            <label for="update-4" class="label-update">Actualizar</label>
+            <input type="text" id="update-4" class="update-cars">
+          </div>
+          <div id="modificar">
+            <button onclick="mod()" class="btn-updates">Modificar</button>
+            <button onclick="del()" id="borrar" class="btn-updates">Eliminar</button>
+          </div>
+          <div id="caja-act">
+            <button onclick="up()" id="actualizar" class="btn-updates">Actualizar</button>
+          </div>
+        </fieldset>
+      </section>
+    </article>
+    <article id="gestion-pedidos">
+      <h2>Pedidos</h2>
+      <section id="admin-pedidos">
+        <fieldset>
+          <legend>Lista de Pedidos</legend>
+          <div id="listar-pedidos"></div>
+        </fieldset>
+        <fieldset>
+          <legend>Tarjeta seleccionada</legend>
+          <div class="form">
+            <label for="numero-pedido">Número de Pedido</label>
+            <output id="numero-pedido" type="text" class="show-pedido"></output>
+          </div>
+          <div class="form">
+            <label for="automotor-pedido">Automor Solicitado</label>
+            <output
+              id="automotor-pedido"
+              type="text"
+              class="show-pedido"
+            ></output>
+          </div>
+          <div class="form">
+            <label for="nombre-cliente">Nombre Cliente</label>
+            <output
+              id="nombre-cliente"
+              type="text"
+              class="show-pedido"
+            ></output>
+          </div>
+          <div class="form">
+            <label for="color-auto">Color Auto</label>
+            <output id="color-auto" type="text" class="show-pedido"></output>
+          </div>
+        </fieldset>
+      </section>
+    </article>
+    <footer>
+      <div>
+        <h2>Contacto</h2>
+        <p>Teléfono: +54 9 11 6789-4567</p>
+        <p>Correo: los.Gitanos@example.com</p>
+      </div>
+    </footer>
+
+    <script src="admin.js"></script>
+  </body>
+</html>

@@ -1,0 +1,103 @@
+#add-automotor {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    padding: 10px;
+    border: solid;
+    border-radius: 20px;
+}
+#upload-auto{
+  margin: 0px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+#cargar {
+  border-radius: 20px;
+  background: radial-gradient(black, transparent);
+  color: white;
+  border: groove;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#tit-admin{
+  display: flex;
+  align-items: flex-end;
+  margin-right: 10px;
+  margin-bottom: 0px;
+  background: linear-gradient(0.5deg, #12115a, #000000ed);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  padding-left:10px;
+  padding-right: 10px;
+}
+#gestion-autos {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.update-car{
+  margin-bottom: 10px;
+  background: linear-gradient( #9694ff, #ffffffed);
+  border-radius: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-style: none;
+}
+#lista{
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+#info{
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  padding-left: 10px;
+  background: linear-gradient( #9694ff, #ffffffed);
+}
+.btn-primary{
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-left: none;
+  background: linear-gradient(0.2turn, #000000ed, #00b900);
+  color: white;
+}
+#mostrar-automotor{
+  border-radius: 20px;
+}
+.form{
+  display: flex;
+  justify-content: space-around;
+}
+#modificar{
+  display: flex;
+  justify-content: space-around;
+}
+.cajas-updates{
+  display:flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.update-cars{
+  background: linear-gradient( #9694ff, #ffffffed);
+  width: 70px;
+  border-radius: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-style: none;
+  margin-left: 10px;
+}
+.btn-updates{
+  border-radius: 20px;
+  background: radial-gradient(black, transparent);
+  color: white;
+  border: groove;
+}
+#borrar{
+  background: linear-gradient(0.2turn, #b90000, #000000ed);
+}
+#caja-act{
+  margin-top: 3px;
+  display: flex;
+  justify-content: flex-end;
+}
